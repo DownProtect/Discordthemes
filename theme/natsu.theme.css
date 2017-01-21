@@ -1,0 +1,22 @@
+﻿//META{"name":"Natsu theme","description":"Natsu theme</br> Bassé sur <a href='https://github.com/jorisvideo/Discordthemes/tree/master/' target='_blank'>Discord Natsu theme</a> by <a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a> & by <a href='https://github.com/' target='_blank'>matthews1089</a> <span style='position: absolute; bottom: 0; left: 0;'>Links: <b><a href='https://github.com/jorisvideo/Discordthemes/' target='_blank'>Github</a></b> | <b><a href='https://discord.gg/E8tXHqC' target='_blank'>Discord</a></b> | <b><a href='https://github.com/Jorisvideo/Discordthemes/wiki/Accueil' target='_blank'>Wiki</a></b></span> <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a></b></span>","author":"<a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a>","version":"0.1"}*//{}
+
+@import url(https://gitcdn.xyz/repo/Jorisvideo/Discordthemes/master/css/darkombres.css);
+
+:root {
+	--main-color: #1abc9c;
+	--hover-color: #16a085;
+    --background-blur: 0px;
+    --background-brightness: 75%;
+}
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://github.com/Jorisvideo/Discordthemes/raw/master/images/natsutheme.jpg) !important;
+}
