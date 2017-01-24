@@ -1,7 +1,16 @@
-﻿//META{"name":"Natsu theme","description":"Natsu theme</br> Bassé sur <a href='https://github.com/jorisvideo/Discordthemes/tree/master/' target='_blank'>Discord Natsu theme</a> by <a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a> & by <a href='https://github.com/' target='_blank'>matthews1089</a> <span style='position: absolute; bottom: 0; left: 0;'>Links: <b><a href='https://github.com/jorisvideo/Discordthemes/' target='_blank'>Github</a></b> | <b><a href='https://discord.gg/E8tXHqC' target='_blank'>Discord</a></b> | <b><a href='https://github.com/Jorisvideo/Discordthemes/wiki/Accueil' target='_blank'>Wiki</a></b></span> <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a></b></span>","author":"<a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a>","version":"0.1"}*//{}
+//META{"name":"Natsu theme","description":"Natsu theme</br> Bassé sur <a href='https://github.com/jorisvideo/Discordthemes/tree/master/' target='_blank'>Discord Natsu theme</a> by <a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a> & by <a href='https://github.com/' target='_blank'>matthews1089</a> <span style='position: absolute; bottom: 0; left: 0;'>Links: <b><a href='https://github.com/jorisvideo/Discordthemes/' target='_blank'>Github</a></b> | <b><a href='https://discord.gg/E8tXHqC' target='_blank'>Discord</a></b> | <b><a href='https://github.com/Jorisvideo/Discordthemes/wiki/Accueil' target='_blank'>Wiki</a></b></span> <span style='position: absolute; bottom: 0; right: 14px;'>By <b><a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a></b></span>","author":"<a href='https://github.com/jorisvideo' target='_blank'>@Silver Crow</a>","version":"0.1"}*//{}
 
 @import url(https://gitcdn.xyz/repo/Jorisvideo/Discordthemes/master/css/darkombres.css);
 
+@import url(//db.onlinewebfonts.com/c/76c8c804695f42945a1d3414db0e720d?family=Narnfont);
+@font-face {font-family: "Narnfont";
+    src: url("//db.onlinewebfonts.com/t/76c8c804695f42945a1d3414db0e720d.eot");
+    src: url("//db.onlinewebfonts.com/t/76c8c804695f42945a1d3414db0e720d.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/76c8c804695f42945a1d3414db0e720d.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/76c8c804695f42945a1d3414db0e720d.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/76c8c804695f42945a1d3414db0e720d.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/76c8c804695f42945a1d3414db0e720d.svg#Narnfont") format("svg");
+}
 :root {
 	--main-color: #f39c12;
 	--hover-color: ##e67e22;
@@ -20,3 +29,7 @@ body::after,
 .radio-theme.dark label{
     background-image: url(https://github.com/Jorisvideo/Discordthemes/raw/master/images/natsutheme.jpg) !important;
 }
+* {
+    font-family: Narnfont !important;
+}
+/*https://gitcdn.xyz/repo/Jorisvideo/Discordthemes/master/font/DarkGardenMK.ttf */
