@@ -1,0 +1,23 @@
+//META{"name":"Warwick theme","description":"Theme made by Silver Crow","author":"Silver Crow","version":"0.1"}*//{}
+
+@import url(https://gitcdn.xyz/repo/Jorisvideo/Discordthemes/master/css/warrick.css);
+
+:root {
+	--main-color: #01FE01;
+	--hover-color: #06E306;
+    --background-blur: 0px;
+    --background-brightness: 75%;
+}
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://github.com/Jorisvideo/Discordthemes/raw/master/images/warwick.jpg) !important;
+}
+.layers {background: transparent! Important; }
